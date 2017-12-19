@@ -6,4 +6,4 @@ mndata = MNIST('samples')
 images, labels = mndata.load_training()
 
 index = np.random.randint(0, len(images))  # choose an index ;-)
-print(mndata.display(images[0]))
+print(mndata.display(images[index]))
